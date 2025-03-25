@@ -8,6 +8,6 @@ torchvision==0.16.1
 bitsandbytes==0.44.1
 tqdm==4.67.1
 Pillow==9.4.0
-tokenizers==0.21.0
 typing-extensions==4.11.0
 matplotlib==3.9.3
+numpy==1.26.4
