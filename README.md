@@ -73,6 +73,9 @@ For more results, please visit our <a href="https://ConsisLoRA.github.io/"><stro
 
 ![results](assets/results.png)
 
+## Acknowledgements
+Our code mainly bases on [B-LoRA](https://github.com/yardenfren1996/B-LoRA) and [diffusers](https://github.com/huggingface/diffusers/blob/main/examples/dreambooth/train_dreambooth_lora_sdxl.py). A huge thank you to the authors for their valuable contributions.
+
 ## Citation
 If you use this code, please consider citing our paper:
 ```bibtex
