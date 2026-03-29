@@ -9,12 +9,12 @@ This repository contains the reference source code for the paper
 ![teaser](assets/teaser.png)
 
 
-## 🔥 News
+<!-- ## 🔥 News
 - **2025/03/24**: We release the inference code and LoRA checkpoints (see [here](https://huggingface.co/chenblin26)). 
 
 ## ⏳ TODOs
 - [x] Release the inference code.
-- [ ] Release the training code.
+- [ ] Release the training code. -->
 
 ## Getting Started
 This code was tested with Python 3.11, Pytorch 2.1 and Diffusers 0.31.
@@ -30,7 +30,15 @@ pip install -r requirements.txt
 ```
 
 ### 1. Train ConsisLoRA for content and style image
-Waiting for training code release.
+- To train on a content image, run:
+```
+bash script/train_content.sh
+```
+
+- To train on a style image, run:
+```
+bash script/train_style.sh
+```
 
 ### 2. Inference
 - For style transfer, run:
