@@ -1,3 +1,4 @@
+
 INSTANCE_PROMPT="A [c]"
 IMAGE_PATH="data_demo/content/modern.jpg"
 OUTPUT_DIR="lora-weights/content/modern"
